@@ -1,0 +1,105 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/category",
+    "pages/login/login",
+    "pages/login/bindmobile",
+    "pages/cart/cart",
+    "pages/user/userinfo/userinfo",
+    "pages/user/invite/invite",
+    "pages/recommend/recommend",
+    "pages/product/list/list",
+    "pages/product/detail/detail",
+    "pages/order/confirm-order",
+    "pages/user/address/address",
+    "pages/user/index/index",
+    "pages/order/myorder",
+    "pages/order/order-detail",
+    "pages/user/address/add/add",
+    "pages/product/search/search",
+    "pages/order/evaluate/evaluate",
+    "pages/product/detail/look-evaluate/look-evaluate",
+    "pages/order/express/express",
+    "pages/order/refund/apply/apply",
+    "pages/order/refund/index/index",
+    "pages/order/refund/detail/detail",
+    "pages/user/address/edit/edit",
+    "components/upload/upload",
+    "pages/coupon/coupon",
+    "pages/user/my-coupon/my-coupon",
+    "pages/user/points/points",
+    "pages/store/address/address",
+    "pages/store/clerkorder",
+    "pages/diy-page/diy-page",
+    "pages/article/list/list",
+    "pages/article/detail/detail",
+    "pages/plus/signin/signin",
+    "pages/order/pay-success/pay-success",
+    "pages/plus/signin/rule/rule",
+    "pages/store/detail/detail",
+    "pages/login/weblogin",
+    "pages/order/pay-h5/pay-h5",
+    "pages/user/set/set",
+    "pages/user/my-wallet/my-wallet",
+    "pages/user/my-wallet/my-balance",
+    "pages/user/modify-phone/modify-phone",
+    "pages/user/favorite/favorite",
+    "pages/webview/webview",
+    "pages/privacy/privacy",
+    "pages/order/express/refund-express",
+    "pages/coupon/detail",
+    "pages/order/cashier",
+    "pages/user/evaluate/list",
+    "pages/custom/custom-design",
+    "pages/custom/my-designs",
+    "pages/custom/design-plaza",
+    "pages/custom/custom-confirm"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff5a5a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/no.png",
+        "selectedIconPath": "static/tabbar/no.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/product/category",
+        "iconPath": "static/tabbar/no.png",
+        "selectedIconPath": "static/tabbar/no.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabbar/no.png",
+        "selectedIconPath": "static/tabbar/no.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/user/index/index",
+        "iconPath": "static/tabbar/no.png",
+        "selectedIconPath": "static/tabbar/no.png",
+        "text": ""
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {
+    "header-bar": "/components/header",
+    "tab-bar": "/components/tabbar/footTabbar"
+  }
+}
